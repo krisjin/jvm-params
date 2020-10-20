@@ -91,6 +91,8 @@
 
 
 
+-XX:+UseCompressedClassPointers和-XX:+UseCompressedOops开启Compressed Class的功能后，会在Metaspace中开辟出一块新的空间(Compressed Class Space)
+
 
 -XX:MetaspaceSize=N ：这个参数是初始化的Metaspace大小，该值越大触发Metaspace GC的时机就越晚。随着GC的到来，虚拟机会根据实际情况调控Metaspace的大小，可能增加上线也可能降低。在默认情况下，这个值大小根据不同的平台在12M到20M浮动。
 
