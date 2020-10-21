@@ -118,7 +118,7 @@
 
 ---
 
-jvisualvm 监控参数
+jvisualvm监控 ,java启动参数
 
 -Djava.rmi.server.hostname=114.67.171.251
 -Dcom.sun.management.jmxremote
