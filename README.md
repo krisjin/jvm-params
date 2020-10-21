@@ -114,3 +114,17 @@
 
 
 
+
+
+---
+
+jvisualvm 监控参数
+
+-Djava.rmi.server.hostname=114.67.171.251
+-Dcom.sun.management.jmxremote
+-Dcom.sun.management.jmxremote.port=8777
+-Dcom.sun.management.jmxremote.rmi.port=8777
+-Dcom.sun.management.jmxremote.authenticate=false
+-Dcom.sun.management.jmxremote.ssl=false 
+
+
